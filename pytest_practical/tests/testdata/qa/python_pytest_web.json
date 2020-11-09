@@ -1,0 +1,13 @@
+{
+  "super_admin":
+  {
+    "username": "admin",
+    "password": "admin123*"
+  },
+  "test_user_nitor":
+  {
+    "username": "test.user@nitorinfotech.com",
+    "password": "#mypassword1996*"
+  }
+
+}
