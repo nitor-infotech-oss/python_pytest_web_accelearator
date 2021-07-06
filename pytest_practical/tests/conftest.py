@@ -69,9 +69,9 @@ def pytest_addoption(parser):
     :param parser:
     :return:
     """
-    parser.addoption("--browser", action="store", default="edge", help="Browser to use")
+    parser.addoption("--browser", action="store", default="chrome", help="Browser to use")
     parser.addoption("--env", help="Choose environment 'dev/qa/stage'", default="qa")
-    parser.addoption("--headless", help="Whether to run in headless or not", default="true")
+    parser.addoption("--headless", help="Whether to run in headless or not", default="false")
     parser.addoption("--log_level", help="Set the level of logging", default="INFO")
 
 
